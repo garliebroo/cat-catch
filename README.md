@@ -62,6 +62,11 @@ https://o2bmm.gitbook.io/cat-catch/
 # 🔒隐私政策
 本扩展收集所有信息都在本地储存处理，不会发送到远程服务器，不包含任何跟踪器。
 
+# 🛠️本地开发笔记
+> 以下是我在本 fork 中的一些开发记录，仅供个人参考。
+- 源码安装后如修改了 JS 文件，需在扩展管理页面点击刷新按钮才能生效。
+- 调试时可在 background service worker 控制台查看网络请求拦截日志。
+
 # 💖鸣谢
 - [hls.js](https://github.com/video-dev/hls.js)
 - [jQuery](https://github.com/jquery/jquery)
